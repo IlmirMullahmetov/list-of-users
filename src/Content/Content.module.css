@@ -1,0 +1,26 @@
+.table__characteristic {
+    display: flex;
+    justify-content: space-between;
+}
+.table__linkBlock{
+    padding: 10px 0px;
+    display: flex;
+    justify-content: end;
+}
+.table__link {
+    padding: 0.375rem 0.75rem;
+    border-radius: 0.375rem;
+    border: 1px solid #198754;
+    text-decoration: none;
+    color: #198754;
+    transition: .3s;
+}
+.table__link:hover {
+    background-color: #198754;
+    color: rgb(255, 255, 255);
+}
+.table__btn {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
